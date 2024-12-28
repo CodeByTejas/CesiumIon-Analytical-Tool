@@ -11,7 +11,7 @@ const CesiumViewer: React.FC = () => {
 
   useEffect(() => {
     if (viewerRef.current) {
-      Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI5ODYzMDE1MC0zNDBlLTRjZDUtODcwZi02YjlhOTk4NmM4NTUiLCJpZCI6MjY1MjM4LCJpYXQiOjE3MzUyODY0MTd9.bJJa7kwnV0YtaHbRL7eXQiIYa7-OprSRjxlIM_JrI6M';
+      Cesium.Ion.defaultAccessToken = 'EnternYourToken';
       setupTerrainAndCamera(viewerRef.current);
     }
   }, []);
