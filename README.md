@@ -1,5 +1,6 @@
 # CesiumJS 3D Analytics Tool
-
+![Demo Pic 1](public/demopic1.png)
+![Demo Pic 2](public/demopic2.png)
 A powerful React application built with CesiumJS for 3D geospatial analytics, featuring measurement tools, annotations, and interactive analysis capabilities.
 
 ## Features
